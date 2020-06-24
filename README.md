@@ -1,4 +1,4 @@
-# notify-on-document-change
+# on-document-change
 
 Notify a webhook when part of a JSON document at a given URL changes
 
