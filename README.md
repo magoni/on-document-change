@@ -1,6 +1,6 @@
 # on-input-change
 
-Notify a webhook when input (stdin) changes, passing input as body of webhook
+Call a webhook when input (stdin) changes, passing input as body of webhook
 
 Depends on `curl` to execute webhook
 
