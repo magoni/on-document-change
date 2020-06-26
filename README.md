@@ -1,8 +1,8 @@
 # on-input-change
 
-Call a webhook when input (stdin) changes, passing input as body of webhook
+Call a webhook when input (stdin) changes, passing stdin as the request body
 
-Depends on `curl` to execute webhook
+Depends on `curl` to send requests
 
 ## Example use case
 Add this script to a cron job and [use an IFTTT webhook to send a push notification](https://medium.com/better-programming/how-to-send-push-notifications-to-your-phone-from-any-script-6b70e34748f6) when [a new Reddit post happens](https://www.reddit.com/r/redditdev/comments/cemmmh/using_reddit_apijson_to_query/eu3s7my), using [jq](https://stedolan.github.io/jq/) to query the JSON
